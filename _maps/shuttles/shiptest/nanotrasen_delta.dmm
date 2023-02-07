@@ -1668,6 +1668,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
+/obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/research{
 	name = "Robotics"
 	},
@@ -2329,16 +2330,6 @@
 /obj/machinery/autolathe,
 /turf/open/floor/plating,
 /area/ship/engineering)
-"ud" = (
-/obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/door/poddoor{
-	id = "whiteship_bridge"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/ship/bridge)
 "uC" = (
 /obj/machinery/door/poddoor{
 	id = "cargobaydoors";
@@ -2896,6 +2887,16 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
+"YV" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/poddoor{
+	id = "whiteship_bridge"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
 "Zi" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3130,7 +3131,7 @@ eb
 eb
 eb
 eb
-ud
+YV
 VW
 SN
 dk
