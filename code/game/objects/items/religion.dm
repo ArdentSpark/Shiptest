@@ -8,7 +8,7 @@
 	attack_verb = list("forcefully inspired", "violently encouraged", "relentlessly galvanized")
 	lefthand_file = 'icons/mob/inhands/equipment/banners_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/banners_righthand.dmi'
-	var/inspiration_available = TRUE //If this banner can be used to inspire crew
+	var/inspiration_available = FALSE //If this banner can be used to inspire crew
 	var/morale_time = 0
 	var/morale_cooldown = 600 //How many deciseconds between uses
 	var/list/job_loyalties //Mobs with any of these assigned roles will be inspired
