@@ -1,8 +1,6 @@
-/*WS Edit - Fuck Psychologists.
+//psychologist back :)
 /datum/job/psychologist
 	name = "Psychologist"
-	total_positions = 1
-	spawn_positions = 1
 
 	outfit = /datum/outfit/job/psychologist
 
@@ -23,13 +21,10 @@
 	pda_slot = ITEM_SLOT_BELT
 	l_hand = /obj/item/clipboard
 
-	backpack_contents = list(/obj/item/storage/pill_bottle/mannitol, /obj/item/storage/pill_bottle/psicodine, /obj/item/storage/pill_bottle/paxpsych, /obj/item/storage/pill_bottle/happinesspsych, /obj/item/storage/pill_bottle/lsdpsych)
-
 	backpack = /obj/item/storage/backpack/medic
 	satchel = /obj/item/storage/backpack/satchel/med
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 
-*/
 //Shiptest Outfits
 
 /datum/outfit/job/psychologist/syndicate/nsv
